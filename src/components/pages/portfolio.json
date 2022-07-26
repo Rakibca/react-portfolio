@@ -1,0 +1,25 @@
+[{
+    "id": 1,
+    "name": "Horiseon",
+    "image": "",
+    "github": "https://github.com/Rakibca/horiseon.github.io",
+    "deployedLink": "https://rakibca.github.io/horiseon.github.io",
+    "skills": "React | MERN | Bootstrap"
+  },
+  {
+    "id": 2,
+    "name": "Weather Dashboard",
+    "image": "",
+    "github": "https://github.com/Rakibca/weather-dashboard",
+    "deployedLink": "https://rakibca.github.io/weather-dashboard/",
+    "skills": "React | MERN | Bootstrap"
+  },
+  {
+    "id": 3,
+    "name": "The Tech Blog",
+    "image": "",
+    "github": "https://github.com/Rakibca/the-tech-blog",
+    "deployedLink": "https://guarded-brushlands-26024.herokuapp.com/",
+    "skills": "React | MERN | Bootstrap"
+  }
+]

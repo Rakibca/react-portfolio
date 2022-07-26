@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Navigation(props) {
-  const navLinks = ['about', 'portfolio', 'contact', 'resume'];
+  const navLinks = ['About', 'Portfolio', 'Contact', 'Resume'];
   return (<ul className="nav">
     {
       navLinks.map(link => (<li className="nav-item" key={link}>

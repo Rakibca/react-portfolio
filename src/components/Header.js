@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Navigation from './Navigation';
+import Footer from './Footer';
 import About from './pages/About';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
@@ -10,17 +11,18 @@ export default function PortfolioContainer() {
 
   const renderPage = () => {
     switch (currentPage) {
-      case "about":
+      case "About":
         return <About></About>
-      case "contact":
-        return <Contact></Contact>
-      case "portfolio":
+      case "Portfolio":
         return <Project></Project>
-      case "resume":
+      case "Contact":
+        return <Contact></Contact>
+      case "Resume":
         return <Resume></Resume>
       default:
         return <About></About>
     }
+
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -28,6 +30,7 @@ export default function PortfolioContainer() {
     <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
     <div>
       {renderPage()}
+      {<Footer></Footer>}
     </div>
   </div>);
 }

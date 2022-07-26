@@ -1,11 +1,10 @@
 import React from 'react';
-// import projects from src
 import projects from './portfolio.json'
 
 function ProjectSection(props) {
-  return (<div className="card">
+  return (<div className="box">
     <div className="img-container">
-      <img alt={props.name} src={props.image}/>
+      <img src={props.image}/>
     </div>
     <div className="content">
       <ul>
@@ -14,8 +13,8 @@ function ProjectSection(props) {
         </li>
         <li>
           <div className="project-icons">
-            <a href={props.github}><img src="" alt="github-icon" id="port-icon"/></a>
-            <a href={props.deployedLink}><img src="" alt="app-icon" id="port-icon"/></a>
+            <a href={props.github}><img src="../github-icon.png" alt="github-icon" width="100px" id="portfolio-icon"/></a>
+            <a href={props.deployedLink}><img src="../click-here-icon.png" alt="app-icon" width="110px" id="portfolio-icon"/></a>
           </div>
         </li>
         <li>
@@ -31,7 +30,7 @@ function Wrapper(props) {
 }
 
 function Projects() {
-  return (<> < div className = "project" > <h1 className="title">full stack projects</h1>
+  return (<> < div className = "project" > <h1 className="title">Projects</h1>
 </div>
 
 <Wrapper>

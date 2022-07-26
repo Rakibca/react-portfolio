@@ -1,11 +1,25 @@
 import React from 'react';
-//import '../styles/Footer.css';
+import {Row, Col} from 'react-bootstrap';
 
 function Footer() {
-  return (<div className="page-footer" id="footer">
-    <a href="https://github.com/Rakibca"><img src="https://img.icons8.com/ios/80/000000/github.png" alt="github-logo" class="icon"/></a>
-    <a href="http://www.linkedin.com"><img src="https://img.icons8.com/fluent/80/000000/linkedin-circled.png" alt="linkedin-logo" class="icon"/></a>
-    <a href="http://stackoverflow.com"><img src="https://img.icons8.com/ios/80/000000/stackoverflow.png" alt="stack-overflow" class="icon"/></a>
+  return (<div className="contact-icons">
+    <Row>
+      <Col lg={3} md={12}>
+        <a href="https://github.com/Rakibca"><img src="../github-icon.png" width="100px" class="icon"/></a>
+      </Col>
+
+      <Col lg={3} md={12}>
+        <a href="https://www.linkedin.com"><img src="../linkedin-icon.png" width="100px" class="icon"/></a>
+      </Col>
+
+      <Col lg={3} md={12}>
+        <a href="mailto:rakib.islam@gmail.com"><img src="../email-icon.png" width="90px" class="icon"/></a>
+      </Col>
+
+      <Col lg={3} md={12}>
+        <a href="" download="download"><img src="../resume-icon.png" width="90px" class="icon"/></a>
+      </Col>
+    </Row>
   </div>);
 }
 

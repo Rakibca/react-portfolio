@@ -1,11 +1,21 @@
 import React from 'react';
-import HelloReact from './components/HelloReact';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 
-// TODO: Add a comment explaining what this function is doing
-// This function is a functional component that helps us split the UI into distinct parts.
-// In this case, we are returning another component, <HelloReact/> from it.
 function App() {
-  return <HelloReact />;
+  return (<div className="App">
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/portfolio" element={<Portfolio />}/>
+        <Route path="/contact" element={<Contact />}/>
+        <Route path="/resume" element={<Resume />}/>
+    </Routes>
+  </Router>
+</div>);
 }
 
 export default App;

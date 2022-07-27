@@ -4,7 +4,7 @@ import Footer from './Footer';
 import About from './pages/About';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
-import Resume from './pages/Resume';
+import Skills from './pages/Skills';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -17,8 +17,8 @@ export default function PortfolioContainer() {
         return <Project></Project>
       case "Contact":
         return <Contact></Contact>
-      case "Resume":
-        return <Resume></Resume>
+      case "Skills":
+        return <Skills></Skills>
       default:
         return <About></About>
     }

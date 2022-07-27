@@ -13,8 +13,8 @@ function ProjectSection(props) {
         </li>
         <li>
           <div className="project-icons">
-            <a href={props.github}><img src="../github-icon.png" alt="github-icon" width="100px" id="portfolio-icon"/></a>
-            <a href={props.deployedLink}><img src="../click-here-icon.png" alt="app-icon" width="110px" id="portfolio-icon"/></a>
+            <a href={props.github}><img src="../github-icon.png" width="100px" id="portfolio-icon"/></a>
+            <a href={props.deployedLink}><img src="../click-here-icon.png" width="110px" id="portfolio-icon"/></a>
           </div>
         </li>
         <li>
@@ -30,13 +30,12 @@ function Wrapper(props) {
 }
 
 function Projects() {
-  return (<> < div className = "project" > <h1 className="title">Projects</h1>
-</div>
+  return (<> < div > <h1>Projects</h1> < /div>
 
 <Wrapper>
     {
-    projects.map((project) => (<ProjectSection name={project.name} key={project.id} image={project.image} github={project.github} deployedLink={project.deployedLink} skills={project.skills}/>))
-  } < /Wrapper>
+    projects.map((project) => (<ProjectSection key={project.id} name={project.name} image={project.image} github={project.github} deployedLink={project.deployedLink} skills={project.skills}/ >))
+} < /Wrapper>
     </ >);
 }
 

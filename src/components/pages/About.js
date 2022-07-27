@@ -2,8 +2,8 @@ import React from 'react';
 import {Col} from 'react-bootstrap';
 
 function About() {
-  return (<section className="title">
-
+  return (<div>
+    <img src="profile-photo.png" alt="profile" className="profile-photo" width="120px"/>
     <div className="row justify-content-center" id="about-container">
       <Col lg={6} md={12}>
         <h1>Rakibul Islam</h1>
@@ -15,7 +15,7 @@ function About() {
         </p>
       </Col>
     </div>
-  </section>);
+  </div>);
 }
 
 export default About;

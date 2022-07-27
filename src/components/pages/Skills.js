@@ -4,7 +4,7 @@ import {Row, Col} from 'react-bootstrap';
 function Skills() {
   return (<> < div className = "resume-container" > <Row>
     <Col lg={4} md={12}>
-      <h2 className="resume">FRONT END PROFICIENCIES</h2>
+      <h2 className="resume">Front End Proficiencies</h2>
       <ul>
         <li>
           HTML
@@ -28,7 +28,7 @@ function Skills() {
     </Col>
 
     <Col lg={4} md={12}>
-      <h2 className="resume">BACK END PROFICIENCIES</h2>
+      <h2 className="resume">Back End Proficiencies</h2>
       <ul>
         <li>
           Node.Js

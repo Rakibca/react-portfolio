@@ -1,25 +1,33 @@
 [{
     "id": 1,
     "name": "Horiseon",
-    "image": "",
+    "image": "../screenshot_1.png",
     "github": "https://github.com/Rakibca/horiseon.github.io",
-    "deployedLink": "https://rakibca.github.io/horiseon.github.io",
-    "skills": "React | MERN | Bootstrap"
+    "deployedLink": "https://rakibca.github.io/horiseon.github.io/",
+    "skills": "HTML | CSS | Code-refactor"
   },
   {
     "id": 2,
     "name": "Weather Dashboard",
-    "image": "",
+    "image": "../screenshot_2.png",
     "github": "https://github.com/Rakibca/weather-dashboard",
     "deployedLink": "https://rakibca.github.io/weather-dashboard/",
-    "skills": "React | MERN | Bootstrap"
+    "skills": "HTML | CSS | JavaScript | jQuery | Bootstrap | 3rd party API"
   },
   {
     "id": 3,
     "name": "The Tech Blog",
-    "image": "",
+    "image": "../screenshot_3.png",
     "github": "https://github.com/Rakibca/the-tech-blog",
     "deployedLink": "https://guarded-brushlands-26024.herokuapp.com/",
-    "skills": "React | MERN | Bootstrap"
+    "skills": "HTML | CSS | JavaScript | ORM | MVC | Node.js | Express.js | MySQL"
+  },
+  {
+    "id": 4,
+    "name": "What's Cooking Good Looking",
+    "image": "../screenshot_4.png",
+    "github": "https://github.com/mariyasetko/Whats-Cooking-Good-Looking",
+    "deployedLink": "https://arcane-caverns-47920.herokuapp.com/",
+    "skills": "HTML | CSS | JavaScript | ORM | MVC | Node.js | Express.js | MySQL"
   }
 ]

@@ -13,12 +13,13 @@ code {
 }
 
 * {
-  background: #D3EBCD;
+  background: #A5C9CA;
   font-family: sans-serif;
   box-sizing: border-box;
 }
 
 h1 {
+  font-weight: bolder;
   font-size: 50px;
   margin: auto auto;
   padding: 10px;
@@ -73,13 +74,13 @@ p {
 }
 
 .project-title {
-  background-color: white;
+  background-color: #839AA8;
   font-weight: bold;
   font-family: sans-serif;
 }
 
 .project-icons {
-  background-color: white;
+  background-color: #839AA8;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -155,25 +156,35 @@ input[type=text], textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #4CAF50;;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-weight: bolder;
+  font-size: 20px;
+  font-variant: small-caps;
+  color: #610C63;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #008CBA;
+}
+
+label {
+  background-color: white;
+  font-weight: bolder;
+  font-variant: small-caps;
 }
 
 .contact-form {
-  border-radius: 50px;
+  border-radius: 25px;
   background-color: #f2f2f2;
   padding: 20px;
   margin-top: 50px;
-  margin-left: 450px;
-  margin-right: 450px;
+  margin-left: 0px;
+  margin-right: 800px;
   margin-bottom: 50px;
 }
 

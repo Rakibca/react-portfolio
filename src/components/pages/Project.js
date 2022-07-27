@@ -13,8 +13,8 @@ function ProjectSection(props) {
         </li>
         <li>
           <div className="project-icons">
-            <a href={props.github}><img src="../github-icon.png" width="100px" id="portfolio-icon"/></a>
-            <a href={props.deployedLink}><img src="../click-here-icon.png" width="110px" id="portfolio-icon"/></a>
+            <a href={props.github}><img src="../github-icon.png" width="60px" id="portfolio-icon"/></a>
+            <a href={props.deployedLink}><img src="../click-here-icon.png" width="50px" id="portfolio-icon"/></a>
           </div>
         </li>
         <li>

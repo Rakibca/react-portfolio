@@ -1,5 +1,5 @@
-// (Reference: https://www.emailjs.com/docs/examples/reactjs)
 import React, { useRef } from 'react';
+//import { sendEmail } from '../../utils/helper.js';
 import emailjs from '@emailjs/browser';
 
 function Contact() {
@@ -8,7 +8,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_z5y6vao', 'template_lb3foy6', form.current, 'Mvn_NZ_PH59q9buvw')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -16,17 +16,22 @@ function Contact() {
       });
   };
 
+
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <label>Name:</label>
-      <input type="text" name="user_name" />
-      <label>Email Address:</label>
-      <input type="email" name="user_email" />
-      <label>Message:</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
-  );
+
+      <label for="fname">Full Name :</label>
+      <input class="form-control" type="text" id="name" name="user_name" placeholder="Your full name..."/>
+
+      <label for="email">Email :</label>
+      <input class="form-control" type="text" id="email" name="user_email" placeholder="Your email..."/>
+
+      <label for="message">Message :</label>
+      <textarea class="form-control textarea" id="message" name="message" rows="5" placeholder="Your message..."></textarea>
+
+      <input type="submit" value="Send Message" />
+  </form>
+ );
 };
 
 export default Contact;

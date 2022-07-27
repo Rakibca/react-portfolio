@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-*  {
+* {
   background: #bcd979;
   font-family: sans-serif;
   box-sizing: border-box;
@@ -52,7 +52,6 @@ h3 {
   font-family: sans-serif;
 }
 
-
 .nav-link, .link, .btn {
   color: #81726a;
   font-weight: bold;
@@ -79,7 +78,6 @@ h3 {
   justify-content: center;
   align-content: center;
 }
-
 
 .project-title {
   background-color: white;
@@ -116,20 +114,21 @@ h3 {
   text-align: left;
 }
 
-.box > .img-container {
+.box>.img-container {
   height: 50%;
   overflow: hidden;
   text-align: center;
   border-radius: 10px;
   background-color: white;
 }
-.box > .img-container > img {
+
+.box>.img-container>img {
   width: 100%;
   padding: 25px;
   background-color: white;
 }
 
-.box > .content {
+.box>.content {
   padding-right: 1rem;
   font-size: 18px;
   background-color: white;
@@ -137,26 +136,39 @@ h3 {
   font-weight: bold;
 }
 
-.box > .content > ul {
+.box>.content>ul {
   list-style-type: none;
   background-color: white;
 }
 
-.box > .content > ul > li {
+.box>.content>ul>li {
   margin-top: 18px;
   background-color: white;
 }
 
 .title {
-font-weight: bold;
-color: #660033;
-font-family: sans-serif;
+  font-weight: bold;
+  color: #660033;
+  font-family: sans-serif;
 }
 
 #portfolio-icon {
   margin: 0px 20px;
 }
 
+#contact-form {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+input, textarea, button {
+  margin: 4px 0;
+  padding: 8px;
+}
 
 @media screen and (max-width: 767px) {
   p, .resume-container {
@@ -191,5 +203,4 @@ font-family: sans-serif;
   .contact-icons, .icon-text {
     margin: auto 50%;
   }
-
 }

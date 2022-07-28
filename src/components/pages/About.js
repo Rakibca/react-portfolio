@@ -9,7 +9,7 @@ function About() {
         <h1>Rakibul Islam</h1>
         <h2>Full Stack Web Developer</h2>
         <p>
-          Experienced IT Professional with one year coding experience seeking an exciting role as a Full Stack Web Developer
+          An experienced IT Professional with more than one year coding experience. Currently seeking an exciting role as a Full Stack Web Developer.
           <br></br>
           <br></br>
         </p>

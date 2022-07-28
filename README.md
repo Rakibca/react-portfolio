@@ -18,6 +18,7 @@ Email.Js package was used for the contact form which allows us to connect to oth
 💻
 
 Browse to this deployed link in GitHub pages:
+`https://rakibca.github.io/react-portfolio`
 
 ## License
 This project is licensed under MIT.
@@ -30,4 +31,4 @@ No tests were used for this project.
 
 ## Questions
 If you have any questions about this project, please contact me.
-You can view more of my projects at https://github.com/Rakibca.
+You can view more of my projects at `https://github.com/Rakibca`

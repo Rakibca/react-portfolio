@@ -5,7 +5,7 @@
 
 ## Description
 This is a portfolio of my past projects using React to showcase my work to hiring managers.
-Email.Js package was used for the contact form which allows us to connect to other email services through which the emails are sent. Therefore anyone can send me a message which gets sent to my inbox as an email. Finally, this React app was deployed to Heroku.
+Email.Js package was used for the contact form which allows us to connect to other email services through which the emails are sent. Therefore anyone can send me a message which gets sent to my inbox as an email.
 
 ## Table of Contents
 * [Usage](#usage)
@@ -17,8 +17,15 @@ Email.Js package was used for the contact form which allows us to connect to oth
 ## Usage
 💻
 
-Browse to this deployed link at Heroku:
-`https://`
+Here are the steps to start this React App:
+
+`git clone https://github.com/Rakibca/react-portfolio.git` to any directory.
+
+`cd react-portfolio`
+
+`npm install`
+
+`npm start`
 
 ## License
 This project is licensed under MIT.

@@ -15,15 +15,12 @@ function Contact() {
 
   return (<div><h1 className="contactHeading">Contact</h1><form ref={form} onSubmit={sendEmail} className="contact-form">
 
-    <label for="fname">Full Name</label>
+    <label for="fname">Full Name:</label>
     <input className="form-control" type="text" name="user_name"/>
-
-    <label for="email">Email</label>
+    <label for="email">Email Address:</label>
     <input className="form-control" type="text" name="user_email"/>
-
-    <label for="message">Message</label>
+    <label for="message">Message:</label>
     <textarea className="form-control textarea" name="message" rows="5"></textarea>
-
     <input type="submit" value="Send Email"/>
   </form></div>);
 };

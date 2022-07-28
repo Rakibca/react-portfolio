@@ -2,7 +2,7 @@ import React from 'react';
 import {Row, Col} from 'react-bootstrap';
 
 function Skills() {
-  return (<> < div className = "resume-container" > <Row>
+  return (<> < div className = "resume-container" > <Row className = "resume-container">
     <Col lg={4} md={12}>
       <h2 className="resume">Front End Proficiencies</h2>
       <ul>

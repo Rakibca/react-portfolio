@@ -17,7 +17,7 @@ function Footer() {
       </Col>
 
       <Col lg={3} md={12}>
-        <a href="" download="download"><img src="../resume-icon.png" width="80px" class="icon"/></a>
+        <a href="https://drive.google.com/file/d/1Q5_E5qDlAtRee2iChXtVLS3wFfclVEQs/view?usp=sharing" download="download" target="_blank"><img src="../resume-icon.png" width="80px" class="icon"/></a>
       </Col>
     </Row>
   </div>);

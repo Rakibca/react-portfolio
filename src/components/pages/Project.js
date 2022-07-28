@@ -4,7 +4,7 @@ import projects from './portfolio.json'
 function ProjectSection(props) {
   return (<div className="box">
     <div className="img-container">
-      <img src={props.image}/>
+      <img src={props.image} alt="icons"/>
     </div>
     <div className="content">
       <ul>
@@ -13,8 +13,8 @@ function ProjectSection(props) {
         </li>
         <li>
           <div className="project-icons">
-            <a href={props.github}><img src="../github-icon.png" width="60px" id="portfolio-icon"/></a>
-            <a href={props.deployedLink}><img src="../click-here-icon.png" width="50px" id="portfolio-icon"/></a>
+            <a href={props.github}><img src="../github-icon.png" alt="gh-icon" width="60px" id="portfolio-icon"/></a>
+            <a href={props.deployedLink}><img src="../click-here-icon.png" alt="ch-icon" width="50px" id="portfolio-icon"/></a>
           </div>
         </li>
         <li>

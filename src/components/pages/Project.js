@@ -10,11 +10,12 @@ function ProjectSection(props) {
       <div className="content">
         <ul>
           <li>
-            <a href={props.deployedLink}><p className="project-title"><img src="../deployed-app-icon.jpg" alt="gh-icon" width="60px" id="portfolio-icon" />{props.name}</p></a>
+            <a href={props.deployedLink}><p className="project-title"><img src="../deployed-app-icon.jpg" alt="gh-icon" width="40px" id="portfolio-icon" />{props.name}</p></a>
           </li>
           <li>
             <div className="project-icons">
               <a href={props.github}><img src="../github-repo-icon.png" alt="gh-icon" width="180px" id="portfolio-icon" /></a>
+              <a href={props.github}><img src="../click-here-icon.png" alt="gh-icon" width="28px" id="portfolio-icon" /></a>
             </div>
           </li>
           <li>

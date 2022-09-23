@@ -13,7 +13,7 @@ function Footer() {
       </Col>
 
       <Col lg={4} md={12}>
-        <a href="https://drive.google.com/file/d/1Q5_E5qDlAtRee2iChXtVLS3wFfclVEQs/view?usp=sharing" download="download" target="_blank" rel="noreferrer"><img src="../resume-icon.png" alt="resume-icon" width="80px" class="icon" /></a>
+        <a href="https://drive.google.com/file/d/1h5n5kMUVCeHRJy-kijqGD0vRAX4o4Eu5/view?usp=sharing" download="download" target="_blank" rel="noreferrer"><img src="../resume-icon.png" alt="resume-icon" width="80px" class="icon" /></a>
       </Col>
     </Row>
   </div>);

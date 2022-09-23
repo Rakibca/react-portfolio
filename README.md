@@ -27,6 +27,8 @@ Here are the steps to start this React App:
 
 `npm start`
 
+Deployed App Link: `https://www.rakib.ca`
+
 ## License
 This project is licensed under MIT.
 

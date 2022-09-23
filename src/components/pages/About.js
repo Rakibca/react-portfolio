@@ -9,7 +9,7 @@ function About() {
         <h1>Rakibul Islam</h1>
         <h2>Full Stack Web Developer</h2>
         <p>
-          An experienced IT Professional with more than one year coding experience. Currently seeking an exciting role as a Full Stack Web Developer.
+          Full-stack web developer and an experienced IT professional leveraging 6 years of IT networking background with a bachelor’s degree in Computer Engineering to build a more intuitive user experience on the web. Developed new skills in HTML, JavaScript, CSS, React.js, MERN stack and responsive web design. Known as an innovative problem solver passionate about developing apps, with a focus on mobile-first design and development.
           <br></br>
           <br></br>
         </p>

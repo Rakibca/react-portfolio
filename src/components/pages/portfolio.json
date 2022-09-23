@@ -1,33 +1,52 @@
-[{
+[
+  {
     "id": 1,
-    "name": "Horiseon",
-    "image": "../screenshot_1.png",
-    "github": "https://github.com/Rakibca/horiseon.github.io",
-    "deployedLink": "https://rakibca.github.io/horiseon.github.io/",
-    "skills": "HTML | CSS | Code-refactor"
-  },
-  {
-    "id": 2,
-    "name": "Weather Dashboard",
-    "image": "../screenshot_2.png",
-    "github": "https://github.com/Rakibca/weather-dashboard",
-    "deployedLink": "https://rakibca.github.io/weather-dashboard/",
-    "skills": "HTML | CSS | JavaScript | jQuery | Bootstrap | 3rd party API"
-  },
-  {
-    "id": 3,
     "name": "The Tech Blog",
     "image": "../screenshot_3.png",
     "github": "https://github.com/Rakibca/the-tech-blog",
     "deployedLink": "https://guarded-brushlands-26024.herokuapp.com/",
-    "skills": "HTML | CSS | JavaScript | ORM | MVC | Node.js | Express.js | MySQL"
+    "description": "A CMS style blog post where developers can publish their blog posts and comment on other developers’ posts as well. This app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.",
+    "role": "Built the entire app from scratch. This includes the CSS styling, utilize handlebars, sequelize ORM and integrated MySQL connectivity to the site.",
+    "technologies": "Tools / Languages: HTML | CSS | JavaScript | ORM | MVC | Node.js | Express.js | MySQL"
   },
   {
-    "id": 4,
+    "id": 2,
     "name": "What's Cooking Good Looking",
     "image": "../screenshot_4.png",
     "github": "https://github.com/mariyasetko/Whats-Cooking-Good-Looking",
     "deployedLink": "https://arcane-caverns-47920.herokuapp.com/",
-    "skills": "HTML | CSS | JavaScript | ORM | MVC | Node.js | Express.js | MySQL"
+    "description": "An Interactive Full-Stack Recipe application using Node, Express, Handlebars, MySQL and Sequelize ORM to connect to the database. This project focuses on the key features and skills required to successfully implement a full stack application.",
+    "role": "Worked on the 3rd party Spoonacular API, utilized a promise based HTTP client called Axios and added animations to the site using Anime.js for this group project.",
+    "technologies": "Tools / Languages: HTML | CSS | JavaScript | ORM | MVC | Node.js | Express.js | MySQL"
+  },
+  {
+    "id": 3,
+    "name": "GeoCatch",
+    "image": "../screenshot_5.png",
+    "github": "https://github.com/Rakibca/GeoCatch",
+    "deployedLink": "https://geocatch1-0.herokuapp.com/",
+    "description": "A location-based photo game using MERN stack where you can challenge other users to locate where you took a photo. A second user must take a separate photo in the first photo's area and try to get as close as possible to the GeoCatch photo challenge original post.",
+    "role": "Developed the Mapbox component and front-end styling for this group project.",
+    "technologies": "Tools / Languages: HTML | CSS | JavaScript | MongoDB | Express.js | React | Node.js | MapBox | Chakra | Tailwind | Exif.js | Multer | Turf.js"
+  },
+  {
+    "id": 4,
+    "name": "Weather Dashboard",
+    "image": "../screenshot_2.png",
+    "github": "https://github.com/Rakibca/weather-dashboard",
+    "deployedLink": "https://rakibca.github.io/weather-dashboard/",
+    "description": "This website provides weather forecasts for cities around the world by getting weather data using the OpenWeather API.",
+    "role": "This was an individual project.",
+    "technologies": "Tools / Languages: HTML | CSS | JavaScript | jQuery | Bootstrap | 3rd party API"
+  },
+  {
+    "id": 5,
+    "name": "Horiseon",
+    "image": "../screenshot_1.png",
+    "github": "https://github.com/Rakibca/horiseon.github.io",
+    "deployedLink": "https://rakibca.github.io/horiseon.github.io/",
+    "description": "The code for this marketing agency (Horiseon) website was refactored so that it will be easy for another developer to understand this code and make changes if required.",
+    "role": "This was an individual project.",
+    "technologies": "Tools / Languages: HTML | CSS | Code-refactor"
   }
 ]
